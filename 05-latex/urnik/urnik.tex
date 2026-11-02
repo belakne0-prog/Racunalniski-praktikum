@@ -112,20 +112,20 @@ katere podatke naj vsebujejo.
 % prav vam bo prišel isti vzorec za poljuben niz znakov, le da bo zdaj obdan z dvema poševnicama.
 \begin{itemize}
 
-   \item Razred /Profesor/ vsebuje osebne podatke profesorja (ime in priimek) ter
+   \item Razred \emph{Profesor} vsebuje osebne podatke profesorja (ime in priimek) ter
    podatke o predmetih, ki jih predava. Hkrati moramo za vsako uro v tednu vedeti, če
    je profesor takrat že zaseden, da mu slučajno ne bi dodelili dveh predavanj v istem
    časovnem terminu. To je najlažje preverjati s pomočjo tabele zasedenosti, ki je
    podrobneje opisana na koncu poglavja.
 
-   \item Razred /Skupina/ predstavlja skupino študentov. Kot podatke torej potrebujemo
+   \item Razred \emph{Skupina} predstavlja skupino študentov. Kot podatke torej potrebujemo
    smer skupine (npr. pedagoška matematika) ter število študentov v njej. Podobno kot pri
    profesorjih, tudi tukaj potrebujemo tabelo zasedenosti.
 
-   \item Razred /Predavalnica/ nosi podatke o kapaciteti predavalnice, njeno oznako
+   \item Razred \emph{Predavalnica} nosi podatke o kapaciteti predavalnice, njeno oznako
    ter podatke o zasedenosti, ki so predstavljeni s tabelo.
 
-   \item Razred /Predmet/ vsebuje podatke o posameznih predmetih. Kot podatke tega
+   \item Razred \emph{Predmet} vsebuje podatke o posameznih predmetih. Kot podatke tega
    objekta je smiselno navesti ime predmeta ter tedensko število ur njegove izvedbe.
    Zanima nas tudi, katerim skupinam je predmet namenjen, ter v katerem semestru se bo
    predaval.
@@ -149,8 +149,8 @@ dovolj, če podamo zasedenost le za en teden.
 Tip vrednosti tabele ni striktno določen. Tako bi nekateri programerji uporabili
 celoštevilsko tabelo, kjer bi vrednost 1 pomenila, da je oseba zasedena, vrednost 0
 pa bi predstavljala njeno dosegljivost. Podobno bi postopali, če bi izbrali logični
-tip (npr. bool v C++), kjer bi vrednost true predstavljala
-dosegljivost, false pa zasedenost.
+tip (npr. \texttt{bool} v C++), kjer bi vrednost \texttt{true} predstavljala
+dosegljivost, \texttt{false} pa zasedenost.
 
 \subsection{Omejitve} % podrazdelek
 
@@ -332,22 +332,22 @@ Naslednje vrstice bodo pojasnile, kako implementirati postopek požrešne metode
 Zgoraj predstavljena shema je le grob opis postopka, ki ga nad urnikom izvaja požrešna metoda,
 zato si je smiselno podrobneje ogledati posamezne korake.
 %
-   Z zanko se sprehodimo po vektorju vseh predmetov. Predmet na ??-tem koraku
-   označimo s ??.
+   Z zanko se sprehodimo po vektorju vseh predmetov. Predmet na \(i\)-tem koraku
+   označimo s \(\text{predmet}_i\).
 
    Naslednja vgnezdena zanka nas popelje po vseh predavalnicah. Predavalnico na
-   ??-tem koraku označimo s ??.
+   \(j\)-tem koraku označimo s \(\text{predavalnica}_j\).
 
-   Za vse proste termine ?? izračunamo ceno vstavljanja
-   ??, ki ga sestavlja ??, profesor, ki ta predmet predava,
+   Za vse proste termine \(\text{predavalnice}_j\) izračunamo ceno vstavljanja
+   \(\text{srečanja}_i\), ki ga sestavlja \(\text{predmet}_i\), profesor, ki ta predmet predava,
    ter skupina, kateri je predmet namenjen.
 
    Če je trenutna cena boljša od najboljše dosedanje, potem najboljša dosedanja
    dobi vrednost trenutne. Hkrati si zapomnimo, za kateri termin smo izračunali ceno
-   vstavljanja, da bomo ?? na koncu vstavili v termin z najboljšo
+   vstavljanja, da bomo \(\text{termin}_i\) na koncu vstavili v termin z najboljšo
    ceno vstavljanja.
 
-   Ko preverimo vse proste termine vseh predavalnic, vstavimo ??
+   Ko preverimo vse proste termine vseh predavalnic, vstavimo \(\text{srečanje}_j\)
    v termin z najboljšo ceno.
 
    Sedaj se ponovno vrnemo na začetek in pogledamo najugodnejši termin za naslednji
@@ -461,41 +461,43 @@ sistematičen način odpraviti to težavo.
 Glede na to, da bi naj iskanje s tabuji odpravilo problem vračanja v isti lokalni maksimum,
 prepovedujemo izvajanje sprememb, s katerimi bi se vrnili v že najden lokalni maksimum.
 
-Rešitev se ponuja kar sama - za naslednjih ?? korakov prepovemo vsako spremembo, ki jo
-opravimo v koraku optimizacije. Izbira konstante ?? je odvisna od samega problema, saj
-ne obstaja neki splošen ??, ki bi nas v vsakem primeru pripeljal iz lokalnega ekstrema.
-Imamo torej seznam prepovedanih sprememb - /tabujev/ in na vsakem koraku za izbrano
+Rešitev se ponuja kar sama - za naslednjih \(n\) korakov prepovemo vsako spremembo, ki jo
+opravimo v koraku optimizacije. Izbira konstante \(n\) je odvisna od samega problema, saj
+ne obstaja neki splošen \(n\), ki bi nas v vsakem primeru pripeljal iz lokalnega ekstrema.
+Imamo torej seznam prepovedanih sprememb - /(tabujev/) in na vsakem koraku za izbrano
 spremembo preverimo, če je element seznama tabujev. Če spremembe ni v seznamu tabujev, jo
 preprosto izvedemo, v primeru, da je, pa postopek vrnemo na iskanje druge spremembe.
 Algoritem iskanja s tabuji se od lokalnega vzpenjanja torej razlikuje le v tem, da pred
 izbiro spremembe preveri, če je vsebovana v seznamu prepovedanih sprememb. Poglejmo, zakaj
 je takšno postopanje smiselno.
 
-Naj bo ?? ter ?? sprememba urnika, ki nas je pripeljala v lokalni maksimum. To
-spremembo (npr. zamenjava ?? in ??) sedaj shranimo v
-seznam tabujev. V naslednjem koraku izvedemo spremembo ??, ki se prav tako shrani v
+Naj bo \(n=100\) ter \(s_1\) sprememba urnika, ki nas je pripeljala v lokalni maksimum. To
+spremembo (npr. zamenjava \(\text{srečanja}_i\) in \(\text{srečanja}_j\)) sedaj shranimo v
+seznam tabujev. V naslednjem koraku izvedemo spremembo \(s_2\), ki se prav tako shrani v
 seznam prepovedanih sprememb. Podobno naredimo za vse spremembe v nadaljnih korakih. S
-tem poskrbimo, da se lahko v isti lokalni maksimum vrnemo šele čez ?? korakov, saj
-se sprememba ??, ki vodi do lokalnega maksimuma, šele tedaj izbriše iz seznama
+tem poskrbimo, da se lahko v isti lokalni maksimum vrnemo šele čez \(n=100\) korakov, saj
+se sprememba \(s_1\), ki vodi do lokalnega maksimuma, šele tedaj izbriše iz seznama
 prepovedanih sprememb.
 
-Če smo dosegli lokalni maksimum in vrednost kriterijske funkcije v ?? korakih uspemo
+Če smo dosegli lokalni maksimum in vrednost kriterijske funkcije v \(n\) korakih uspemo
 rešiti iz okolice tega lokalnega maksimuma, potem se je metoda iskanja s tabuji izkazala
 kot uspešna.
 
-Končni algoritem % podrazdelek
+\subsection{Končni algoritem} % podrazdelek
 
 Za konec si oglejmo, kako je videti optimizacijski del algoritma za iskanje najboljšega
 urnika, pri čemer je najboljši urnik tisti, ki s kršenjem omejitev pridobi najmanj negativnih
 točk, oziroma ki ima največjo vrednost kriterijske funkcije.
 
 % začetek okolja verbatim
-(1) r = rešitev, dobljena s požrešno metodo.
+\begin{verbatim}
+	(1) r = rešitev, dobljena s požrešno metodo.
 (2) Izvajaj, dokler...
 {
    (3) Z optimizacijo izboljšaj r.
    (4) Oceni r.
 }
+\end{verbatim}
 % začetek okolja verbatim
 
    V prvem koraku izvedemo požrešno metodo, ki rešitev urnika pripelje v lokalni maksimum.
@@ -517,13 +519,13 @@ točk, oziroma ki ima največjo vrednost kriterijske funkcije.
 To je le ena izmed možnosti, kako zastaviti optimizacijski potek, s katero smo želeli predstaviti
 simbiozo opisanih metod. Nič ne bi bilo narobe, če bi za iskanje najboljšega urnika posamično
 uporabili katero izmed tehnik - mogoče bi katero izmed teh postopanj dalo celo boljši rezultat.
-
-Zaključek % podrazdelek
+%
+\subsection{Zaključek} % podrazdelek
 
 % V spodnjem odstavku naj bodo črke G, U in I v "Graphical User Interface" podčrtane.
 Sledili smo receptu in s tem izdelali "okusen obrok", treba ga je le še ustrezno postreči
-gostom za mizo. S tem imamo v mislih grafični uporabniški vmesnik (Graphical
-User Interface), ki mora urnik uporabnikom predstaviti na razumljiv in
+gostom za mizo. S tem imamo v mislih grafični uporabniški vmesnik (\underline{G}raphical
+\underline{U}ser  \underline{I}nterface), ki mora urnik uporabnikom predstaviti na razumljiv in
 pregleden način. Končnega izgleda izdelka nikakor ne smemo zanemariti, saj je ta med uporabniki
 vreden skoraj toliko kot kakovosten urnik. Odločili smo se, da za razmišljanje o tej temi vaši
 domišljiji pustimo prosto pot.

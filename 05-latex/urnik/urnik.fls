@@ -125,6 +125,7 @@ INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -177,6 +178,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr9.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy7.pfb
