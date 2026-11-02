@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1793634300.09511 "c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex" "urnik.pdf" "urnik" 1793634301.01804 0
+["pdflatex"] 1793635280.45649 "c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex" "urnik.pdf" "urnik" 1793635281.46656 2
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -93,10 +93,10 @@
   "C:/Users/bk16879/AppData/Roaming/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty" 1665066333 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "C:/Users/bk16879/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/bk16879/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
-  "c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex" 1793634299 29559 8f1fab2b33f6a08f1b9d672d3f9384bd ""
-  "urnik.aux" 1793634300 1801 6fcaf7e7d62309a6a209236ce2734bda "pdflatex"
-  "urnik.out" 1793634300 1312 224380b9c59a252f3c1894a32aaffe06 "pdflatex"
-  "urnik.tex" 1793634299 29559 8f1fab2b33f6a08f1b9d672d3f9384bd ""
+  "c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex" 1793635277 29571 b8c7e2d597f8e56129277e463897b615 ""
+  "urnik.aux" 1793635281 1801 d2ad5245b0eaa101c6ac60cda0e1b834 "pdflatex"
+  "urnik.out" 1793635281 1312 224380b9c59a252f3c1894a32aaffe06 "pdflatex"
+  "urnik.tex" 1793635277 29571 b8c7e2d597f8e56129277e463897b615 ""
   (generated)
   "urnik.aux"
   "urnik.log"

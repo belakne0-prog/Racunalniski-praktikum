@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.2)  2 NOV 2026 16:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.2)  2 NOV 2026 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,10 +271,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-07-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count310
-) (urnik.aux
-Package babel Info: 'slovene' activates 'slovene' shorthands.
-(babel)             Reported on input line 8.
-)
+) (urnik.aux)
 \openout1 = `urnik.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -295,8 +292,9 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
+Package babel Info: 'slovene' activates 'slovene' shorthands.
+(babel)             Reported on input line 13.
 Package hyperref Info: Link coloring OFF on input line 13.
- (urnik.out) (urnik.out)
 \@outlinefile=\write3
 \openout3 = `urnik.out'.
 
@@ -312,48 +310,309 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 11
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 140.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 122.
  (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 140.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 122.
  (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 140.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 122.
  (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 140.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 122.
  (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 140.
+(Font)              <10> on input line 122.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 140.
+(Font)              <7> on input line 122.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 140.
- [2{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [3] [4{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] [5] [6] [7] [8] [9] (urnik.aux)
+(Font)              <5> on input line 122.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 122.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 122.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 122.
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:124: Missing $ inserted.
+<inserted text> 
+                $
+l.124 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:124: Missing } inserted.
+<inserted text> 
+                }
+l.124 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (314.15164pt too wide) in paragraph at lines 121--124
+\T1/lmr/m/n/10 bu-jemo smer sku-pine (npr. $\OT1/lmr/m/n/10 1\OML/lmm/m/it/10 edago\OT1/lmr/m/n/10 ≤\OML/lmm/m/it/10 kamatematika\OT1/lmr/m/n/10 )\OML/lmm/m/it/10 ter\OT1/lmr/m/n/10 ≤\OML/lmm/m/it/10 tevilo\OT1/lmr/m/n/10 ≤\OML/lmm/m/it/10 tudentovvnjej:Podobnokotpriprofesorjih; tuditukajpotrebujemotabelozasedenosti:[]$ 
+ []
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:124: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.124 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[2{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+LaTeX Warning: Command \v invalid in math mode on input line 178.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 178.
+
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:179: LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179     \item
+                Urnik mora zado≈°ƒçati zastavljenemu ƒçasovnemu okvirju (npr...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:179: Missing $ inserted.
+<inserted text> 
+                $
+l.179     \item U
+                 rnik mora zado≈°ƒçati zastavljenemu ƒçasovnemu okvirju (npr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (90.37149pt too wide) in paragraph at lines 178--179
+[]\T1/lmr/m/n/10 Predavanja po-sebne vr-ste (npr. $\OT1/lmr/m/n/10 1\OML/lmm/m/it/10 ajeizra\OT1/lmr/m/n/10 £\OML/lmm/m/it/10 unalni\OT1/lmr/m/n/10 ≤\OML/lmm/m/it/10 tva\OT1/lmr/m/n/10 )\OML/lmm/m/it/10 semorajoizvajativustreznipredavalnici:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 179.
+
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:180: LaTeX Error: Command \end{itemize} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.180   \end{itemize}
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:180: Missing $ inserted.
+<inserted text> 
+                $
+l.180   \end{itemize}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (93.31697pt too wide) in paragraph at lines 179--180
+[]\T1/lmr/m/n/10 Urnik mora za-do-≤£ati za-sta-vlje-nemu £a-sov-nemu okvirju (npr. $\OT1/lmr/m/n/10 1\OML/lmm/m/it/10 dsedmihzjutrajdoosmihzve\OT1/lmr/m/n/10 £\OML/lmm/m/it/10 er\OT1/lmr/m/n/10 )\OML/lmm/m/it/10 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 191.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 191.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 191.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 192.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 192.
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:194: Missing $ inserted.
+<inserted text> 
+                $
+l.194 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (298.83832pt too wide) in paragraph at lines 186--194
+\T1/lmr/m/n/10 lje-va-nje t.i. $\OT1/lmr/m/n/10 1\OML/lmm/m/it/10 rekrivanj:\OT1/lmr/m/n/10 É\OML/lmm/m/it/10 e\OT1/lmr/m/n/10 ∫\OML/lmm/m/it/10 elialgoritemdodelitipredavanjedolo\OT1/lmr/m/n/10 £\OML/lmm/m/it/10 enipredavalnici; moranajprejvtabelizasedenostipreveriti; \OT1/lmr/m/n/10 £\OML/lmm/m/it/10 ejevtistemterminule \OMS/lmsy/m/n/10 ^^@
+ []
+
+[3]
+
+LaTeX Warning: Command \v invalid in math mode on input line 264.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 265.
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:266: Missing $ inserted.
+<inserted text> 
+                $
+l.266 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (667.47609pt too wide) in paragraph at lines 263--266
+[]\T1/lmr/m/n/10 V 2. $\OT1/lmr/m/n/10 1\OML/lmm/m/it/10 oglavjubomoopisalipostopekgradnjeurnika; sajbomopodrobnejespoznalioperacijenadurnikominve\OT1/lmr/m/n/10 £\OML/lmm/m/it/10 vrstoptimizacijskihmetod; kijihlahkobrezoklevanjapoimenujemokarosr\OT1/lmr/m/n/10 £\OML/lmm/m/it/10 jeprogramazaavtomatiziranoizdelavournika:$ 
+ []
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 270.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 270.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 274.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 275.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 275.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 276.
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:277: Missing $ inserted.
+<inserted text> 
+                $
+l.277 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (2208.73732pt too wide) in paragraph at lines 269--277
+\T1/lmr/m/n/10 V 1. $\OT1/lmr/m/n/10 1\OML/lmm/m/it/10 oglavjusmoizvedeli; daro\OT1/lmr/m/n/10 £\OML/lmm/m/it/10 naizdelaurnikovnitakopreprosta; kotbisinaprvipogledpredstavljali:\OT1/lmr/m/n/10 í\OML/lmm/m/it/10 eve\OT1/lmr/m/n/10 £\OML/lmm/m/it/10 jiizzivpredstavljaimplementacijaalgoritma; kida\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 fakultetni\OT1/lmr/m/n/10 )\OML/lmm/m/it/10 urnik:Obstajapavelikarazlikamedprvimindrugimpristopom; sajkojealgoritemenkratdobronapisan; smosete\OT1/lmr/m/n/10 ∫\OML/lmm/m/it/10 avzizdelovanjemurnikazavselejre\OT1/lmr/m/n/10 ≤\OML/lmm/m/it/10 ili:Takonasvsakoleto\OT1/lmr/m/n/10 £\OML/lmm/m/it/10 akalespreminjanjevhodnihpodatkov; kijihalgoritemsprejmeinnatoiznjihizdelaceloviturnik:Tevhodnepodatkesmosiskupajsstrogimiin\OT1/lmr/m/n/10 ≤\OML/lmm/m/it/10 ibkimiomejitvami\OT1/lmr/m/n/10 ∫\OML/lmm/m/it/10 epodrobnejeogledalivprvemdelu; takodaselahkotokratosredoto\OT1/lmr/m/n/10 £\OML/lmm/m/it/10 imonaosr\OT1/lmr/m/n/10 £\OML/lmm/m/it/10 jeprograma:$ 
+ []
+
+[4] [5] [6]
+
+LaTeX Warning: Command \v invalid in math mode on input line 429.
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:430: Missing $ inserted.
+<inserted text> 
+                $
+l.430 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:430: Missing } inserted.
+<inserted text> 
+                }
+l.430 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:430: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.430 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[7]
+
+c:/Users/bk16879/rp/racunalniski-praktikum/05-latex/urnik/urnik.tex:475: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.475 spremembo (npr.~$1amenjava \(
+                                   \text{sreƒçanja}_i\) in \(\text{sreƒçanja...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[8] [9] (urnik.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
  ***********
-Package rerunfilecheck Info: File `urnik.out' has not changed.
-(rerunfilecheck)             Checksum: 224380B9C59A252F3C1894A32AAFFE06;1312.
+
+
+Package rerunfilecheck Warning: File `urnik.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `urnik.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  224380B9C59A252F3C1894A32AAFFE06;1312.
  ) 
 Here is how much of TeX's memory you used:
- 9919 strings out of 467501
- 157003 string characters out of 5418653
- 590204 words of memory out of 5000000
- 39020 multiletter control sequences out of 15000+600000
+ 9907 strings out of 467501
+ 156730 string characters out of 5418653
+ 590123 words of memory out of 5000000
+ 39012 multiletter control sequences out of 15000+600000
  677401 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,5n,79p,309b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,6n,79p,309b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on urnik.pdf (9 pages, 309364 bytes).
+Output written on urnik.pdf (9 pages, 312563 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 148 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

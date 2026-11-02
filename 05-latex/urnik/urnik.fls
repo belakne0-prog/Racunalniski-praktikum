@@ -100,14 +100,8 @@ INPUT .\urnik.aux
 INPUT .\urnik.aux
 INPUT urnik.aux
 OUTPUT urnik.aux
-INPUT .\urnik.out
-INPUT .\urnik.out
-INPUT urnik.out
-INPUT urnik.out
-OUTPUT urnik.pdf
-INPUT .\urnik.out
-INPUT .\urnik.out
 OUTPUT urnik.out
+OUTPUT urnik.pdf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr9.tfm
@@ -152,9 +146,9 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT urnik.aux
 INPUT .\urnik.out
 INPUT .\urnik.out
