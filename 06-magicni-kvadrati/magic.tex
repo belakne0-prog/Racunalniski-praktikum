@@ -22,7 +22,7 @@
 % 1. naloga
 % Glavo dokumenta popravite tako, da se ne bo izpisal datum.
 % To naredite tako, da za ukazom `\title` dodate ukaz `\date{}`.
-
+\date{}
 \begin{document}
 
 \maketitle
@@ -36,14 +36,14 @@ Prirejeno po:
 % V spodnjem okolju `itemize` uporabite ukaz `\url` na obeh spletnih naslovih
 % (naslova sta v komentarju, da ne pride do napake pri prevajanju te datoteke).
 \begin{itemize}
-   \item %http://mathworld.wolfram.com/MagicSquare.html
-   \item %http://en.wikipedia.org/wiki/Magic_square
+   \item \url{http://mathworld.wolfram.com/MagicSquare.html}
+   \item \url{http://en.wikipedia.org/wiki/Magic_square}
 \end{itemize}
 
 % 3. naloga
 % Na tem mestu uporabite ukaz, ki izpiše kazalo vsebine.
 % Poiščite ga na spletu: po angleško se kazalu vsebine reče "table of contents".
-
+\tableofcontents
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Konec prvega sklopa nalog
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -53,12 +53,11 @@ Prirejeno po:
 
 \section{Uvod}
 
-% \begin{definicija}
+ \begin{definicija}
    \emph{Magični kvadrat} reda \(n\) je nabor \(n^2\) različnih števil,
    ki so razvrščena v kvadratno tabelo tako, da vedno dobimo enako vsoto,
    če seštejemo vsa števila poljubne vrstice, vsa števila poljubnega
-   stolpca ali vsa števila v katerikoli od glavnih diagonal.
-% \end{definicija}
+   stolpca ali vsa števila v katerikoli od glavnih diagonal. \end{definicija}
 
 Primer magičnega kvadrata reda 3 je prikazan v tabeli ??. % sklic: table:mag3
 
